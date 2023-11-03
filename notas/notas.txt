@@ -1,5 +1,23 @@
-o git bach é um console terminal extendida para otimizar o uso do git
+	
+Git: É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo
 
-Comandos:
+# Exemplo: alguns livros digitais são disponibilizados no GitHub e escrito aos poucos publicamente
 
-git add .   = Serve para mandar pro git o que eu criei aqui
+
+Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. 
+
+
+# Dowload gratuito pelo link: https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe
+
+	
+§ Comandos:
+
+
+	git status = Serve para eu ver o que está acontecendo no geral
+	
+	
+Como eu faço para enviar para o github o que eu criei nessa pasta?
+
+	git add .   => Primeiro eu adiciono as informações no controle de versão local
+	git commit -m "incluindo as notas no git"  => Adiciono uma descrição
+	git push origin main => Envio todos os commits que temos para a nuvem (enviando as informações para o github)
