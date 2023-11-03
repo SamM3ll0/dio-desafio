@@ -1,23 +1,86 @@
-	
-Git: É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo
+DIO-BOOTCAMP-Potência Tech iFood - Desenvolvimento de Jogos
 
+DESAFIO 01: ============================================================================================================================================================
+
+Descrição do Desafio
+Reforce seu conhecimento em Git com um desafio de projeto totalmente prático, onde você executará todos os passos para a criação, atualização e sincronização de um repositório no GitHub. 
+Para isso, tenha em mente todas as dicas e direcionamentos apresentados pelo expert nas aulas. 
+Dessa forma, você poderá compartilhar suas anotações e exercícios em seu próprio repositório. 
+Criando assim, o primeiro (de muitos) projetos do seu portfólio ;)
+
+Pré-requisitos:
+
+Conhecimento Básico em Git e GitHub;
+
+Slides: A apresentação utilizada neste conteúdo está disponível AQUI: https://drive.google.com/file/d/1IZu0qohv1JOmxjEra1lknDiiStU68bl4/view?usp=sharing
+
+Com isso, você terá acesso a todos os slides e links apresentados durante as aulas.
+
+Bons estudos! 
+
+=======================================================================================================================================================================
+
+O QUE É O GIT?
+É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo
 # Exemplo: alguns livros digitais são disponibilizados no GitHub e escrito aos poucos publicamente
-
-
-Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. 
-
-
+Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central.
 # Dowload gratuito pelo link: https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe
 
+O QU É UM REPOSITÓRIO EM GIT?
+Em Git, um repositório é um diretório (ou pasta) que contém todos os arquivos e histórico de um projeto.
+Ele atua como um banco de dados que mantém o controle de todas as alterações feitas nos arquivos ao longo do tempo.
+Cada repositório Git contém informações sobre as diferentes versões dos arquivos, conhecidas como commits.
+Os desenvolvedores usam repositórios Git para colaborar em projetos, rastrear mudanças, criar ramos (ramificações) para trabalhar em novos recursos e mesclar essas mudanças de volta ao projeto principal quando estiverem prontas.
+
+O QUE É O GITHUB?
+GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo uma vez que os código são armazenados em nuvem 
+# Você pode criar seu login aqui: https://github.com/login 
+
++ Repositórios: Usados para organizar o código para projetos individuais
++ 
+Gerenciamento de projetos: Permite que os usuários gerenciem projetos, atribuam tarefas e acompanhem o progresso.
+
++ Colaboração: Permite que os usuários colaborem em projetos com outros usuários, incluindo a capacidade de revisar e comentar o código.
+
++ Automação: Permite que os usuários automatizem tarefas comuns, como testes e compilações.
++ 
+Integração: Permite que os usuários integrem o GitHub com outras ferramentas e serviços, como Slack e Trello.
++ 
+Segurança: Oferece recursos de segurança, como autenticação de dois fatores e verificação de vulnerabilidades.
+
++ Comunidade: Permite que os usuários se conectem com outros desenvolvedores e contribuam para projetos de código aberto.
+
+O QUE É UM REPOSITÓRIO EM GITHUB?
+No GitHub, um repositório é um espaço online onde você armazena um projeto Git.
+Ele contém todos os arquivos e histórico de um projeto e pode ser acessado e colaborado por outras pessoas.
+O GitHub fornece uma plataforma para hospedar repositórios Git na internet, facilitando a colaboração e o compartilhamento de código com desenvolvedores de todo o mundo.
+Os repositórios no GitHub podem ser públicos (acessíveis por todos) ou privados (acessíveis apenas por pessoas autorizadas).
+
 	
-§ Comandos:
+COMANDOS IMPORTANTES
+	
+	git clone => Usado para criar uma cópia local de um repositório Git existente. Isso é útil quando você deseja começar a trabalhar em um projeto que já está hospedado em um repositório remoto, como aqueles 		hospedados no GitHub, GitLab ou em um servidor Git.
 
-
-	git status = Serve para eu ver o que está acontecendo no geral
+	git status => Fornece informações sobre quais arquivos foram modificados, adicionados, excluídos ou estão pendentes de confirmação
 	
 	
 Como eu faço para enviar para o github o que eu criei nessa pasta?
 
 	git add .   => Primeiro eu adiciono as informações no controle de versão local
+	
+	Este comando é usado para adicionar todas as mudanças que foram feitas nos arquivos do seu diretório de trabalho para a área de preparação (também conhecida como índice).
+	O ponto (.) é um atalho que significa "todos os arquivos" no diretório atual. Você também pode especificar nomes de arquivos ou diretórios específicos, se desejar adicionar apenas algumas mudanças.
+	Após executar git add, as mudanças estão prontas para serem confirmadas.			
+
 	git commit -m "incluindo as notas no git"  => Adiciono uma descrição
+
+	Este comando é usado para confirmar as mudanças que foram adicionadas à área de preparação.
+	A opção -m é seguida por uma mensagem de confirmação entre aspas, que deve descrever sucintamente as alterações feitas no commit.
+	O commit é um instantâneo do estado dos arquivos no momento da confirmação, e a mensagem ajuda a documentar o motivo das alterações.
+
 	git push origin main => Envio todos os commits que temos para a nuvem (enviando as informações para o github)
+
+	Este comando é usado para enviar (push) as mudanças confirmadas do seu repositório local para o repositório remoto.
+	origin é o nome padrão dado ao repositório remoto a partir do qual você clonou (você pode ter outros remotos com nomes diferentes).
+	main é o nome do branch que você está enviando para o repositório remoto. Certifique-se de que você esteja no branch correto antes de executar este comando.
+	Após o git push, as alterações são refletidas no repositório remoto, permitindo que outros colaboradores as acessem.
