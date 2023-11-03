@@ -1,0 +1,5 @@
+o git bach é um console terminal extendida para otimizar o uso do git
+
+Comandos:
+
+git add .   = Serve para mandar pro git o que eu criei aqui
